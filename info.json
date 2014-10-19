@@ -1,0 +1,10 @@
+{
+  "name": "CartmenNaturalGas",
+  "version": "0.0.1",
+  "title": "Cartmen's Natural Gas Mod",
+  "author": "Cartmen180",
+  "contact": "cartmen180@gmail.com",
+  "homepage": "",
+  "description": "Adds natural gas to the game. Including refinement into methane, ethane, propane and butane and related products.",
+  "dependencies": ["base >= 0.10.0"]
+}
