@@ -80,4 +80,43 @@ data:extend({
     subgroup = "fluid",
     order = "a[natural-gas-processing]-a[natural-gas-processing]"
   },
+  
+  {
+    type = "recipe",
+    name = "LNG-canister",
+    category = "crafting-with-fluid",
+    enabled = "false",
+    energy_required = 1.5,
+    ingredients =
+    {
+      {type="fluid", name="LNG", amount=1},
+	  {type="item", name="empty-canister", amount=2}
+    },
+    results=
+    {
+      {type="item", name="LNG-canister", amount=2}
+    },
+    icon = "__CartmenNaturalGas__/graphics/icons/LNG-canister.png",
+    subgroup = "fluid",
+    order = "a[natural-gas-processing]-a[natural-gas-processing]"
+  },
+  
+  {
+    type = "recipe",
+    name = "empty-canister",
+    category = "advanced-crafting",
+    enabled = "false",
+    energy_required = 1.0,
+    ingredients =
+    {
+	  {type="item", name="steel-plate", amount=2}
+    },
+    results=
+    {
+      {type="item", name="empty-canister", amount=1}
+    },
+    icon = "__CartmenNaturalGas__/graphics/icons/empty-canister.png",
+    subgroup = "storage",
+    order = "a[natural-gas-processing]-a[natural-gas-processing]"
+  },
 })

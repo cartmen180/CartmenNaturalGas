@@ -30,6 +30,10 @@ data:extend({
         type = "unlock-recipe",
         recipe = "LNG-conversion"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "LNG-canister"
+      },
     },
     unit =
     {
@@ -50,6 +54,7 @@ data:extend({
         type = "unlock-recipe",
         recipe = "advanced-ethane-steam-cracking"
       },
+	  
     },
     unit =
     {

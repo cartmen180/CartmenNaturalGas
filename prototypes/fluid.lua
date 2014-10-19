@@ -88,7 +88,6 @@ data:extend({
     name = "LNG",
     default_temperature = 25,
     heat_capacity = "0KJ",
-	fuel_value = "20MJ",
     base_color = {r=176, g=176, b=131},
     flow_color = {r=176, g=176, b=131},
     max_temperature = 100,
