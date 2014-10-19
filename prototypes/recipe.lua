@@ -17,8 +17,8 @@ data:extend({
 	  --{type="fluid", name="butane", amount=1}
     },
     icon = "__CartmenNaturalGas__/graphics/icons/fluid/natural-gas-processing.png",
-    subgroup = "fluid",
-    order = "a[natural-gas-processing]-a[natural-gas-processing]"
+    subgroup = "cartmen-gas",
+    order = "a"
   },
   
   {
@@ -37,8 +37,8 @@ data:extend({
       {type="fluid", name="petroleum-gas", amount=2}
     },
     icon = "__CartmenNaturalGas__/graphics/icons/fluid/basic-ethane-steam-cracking.png",
-    subgroup = "fluid",
-    order = "a[natural-gas-processing]-a[natural-gas-processing]"
+    subgroup = "cartmen-gas",
+    order = "b"
   },
  
   {
@@ -56,8 +56,8 @@ data:extend({
       {type="fluid", name="LNG", amount=1}
     },
     icon = "__CartmenNaturalGas__/graphics/icons/fluid/LNG-conversion.png",
-    subgroup = "fluid",
-    order = "a[natural-gas-processing]-a[natural-gas-processing]"
+    subgroup = "cartmen-gas",
+    order = "d"
   },
   
   {
@@ -76,8 +76,8 @@ data:extend({
       {type="item", name="LNG-canister", amount=2}
     },
     icon = "__CartmenNaturalGas__/graphics/icons/LNG-canister.png",
-    subgroup = "fluid",
-    order = "a[natural-gas-processing]-a[natural-gas-processing]"
+    subgroup = "cartmen-intermediates",
+    order = "b"
   },
   
   {
@@ -95,7 +95,7 @@ data:extend({
       {type="item", name="empty-canister", amount=1}
     },
     icon = "__CartmenNaturalGas__/graphics/icons/empty-canister.png",
-    subgroup = "storage",
-    order = "a[natural-gas-processing]-a[natural-gas-processing]"
+    subgroup = "cartmen-intermediates",
+    order = "a"
   },
 })
