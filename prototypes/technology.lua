@@ -43,25 +43,4 @@ data:extend({
     },
     order = "d-e"
   },
-  {
-    type = "technology",
-    name = "gas-processing-2",
-    icon = "__base__/graphics/technology/oil-processing.png",
-    prerequisites = {"gas-processing"},
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "advanced-ethane-steam-cracking"
-      },
-	  
-    },
-    unit =
-    {
-      count = 50,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}, {"science-pack-3", 1}},
-      time = 30
-    },
-    order = "d-f"
-  },
 })

@@ -71,20 +71,6 @@ data:extend({
   
   {
     type = "fluid",
-    name = "butadiene",
-    default_temperature = 25,
-    heat_capacity = "1KJ",
-    base_color = {r=176, g=176, b=131},
-    flow_color = {r=176, g=176, b=131},
-    max_temperature = 100,
-    icon = "__CartmenNaturalGas__/graphics/icons/fluid/butadiene.png",
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
-    order = "a[fluid]-c[butadiene]"
-  },
-  
-  {
-    type = "fluid",
     name = "LNG",
     default_temperature = 25,
     heat_capacity = "0KJ",
